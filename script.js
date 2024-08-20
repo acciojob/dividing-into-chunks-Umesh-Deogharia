@@ -13,11 +13,9 @@ const divide = (arr, n) => {
       subarray = [arr[i]];
     }
   }
-
   if (subarray.length > 0) {
     result.push(subarray);
   }
-
   return result;
 };
 
