@@ -13,11 +13,13 @@ const divide = (arr, n) => {
       subarray = [arr[i]];
     }
   }
+
   if (subarray.length > 0) {
     result.push(subarray);
   }
+
   return result;
 };
 
-// const n = prompt("Enter n: ");
+const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
